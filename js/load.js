@@ -13,7 +13,7 @@ function getCount()
 		console.log("Data is "+data);
 	   console.log("Reach is "+data.reach);
 	  $( ".page-header" )
-	    .append( "<small>Reaching around "+data.reach+"+ people.</small>") //2+
+	    .append( "<small>  Reaching "+data.reach+" people.</small>") //2+
 	}, "json" );
 
 
